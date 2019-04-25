@@ -14,6 +14,7 @@
   <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
   <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
   <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <title>Adamantium</title>
 </head>
@@ -23,6 +24,10 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
       aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">Adamantium</span>
+      <i class="fas fa-gem" id="diamond"></i>
+      <div id="diamond-number">1</div>
+      <h3 id="level-tag">N</h3>
+      <div id="current-level">1</div>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <a class="navbar-brand" href="#">Menú</a>
@@ -59,7 +64,6 @@
     <section id="login" class="section-app">
       <p> Aquí va el login</p>
       <h1>Regístrate en nuestra página</h1>
-      <!-- <div id="firebaseui-auth-container"></div> -->
       <button id="login">Regístrate con tu cuenta de Google</button>
       <div id="loader">Loading...</div>
     </section>

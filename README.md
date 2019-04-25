@@ -20,61 +20,69 @@ Proyecto que permite conocer el trámite ante el SAT para incentivar la transfor
 
 ## Introducción
 
-Se estima que en México existen 30 millones de personas trabajando en el sector informal, lo que representa al 57% de la población (Proceso, 2018), ubicada en el 30% de las empresas mexicanas (Expansión, 2017). Aunque el sector informal en México es mayor al sector formal, únicamente generan una cuarta parte (23%) de la riqueza del país que representa 4 billones 705 mil 381 pesos (Forbes, 2018). 
+Se estima que en México existen 30 millones de personas trabajando en el sector informal, lo que representa al 57% de la población económicamente activa (Proceso, 2018). Aunque el sector informal en México tiene mayor representación en número de personas comparado con el sector formal, únicamente generan una cuarta parte (23%) de la riqueza del país, que representa 4 billones 705 mil 381 pesos (Forbes, 2018). 
 
 Las personas que trabajan en la informalidad se enfrentan a una variedad de inseguridades, de acuerdo a La Jornada (2018):
 
 
-* Se encuentran realizando actividades no reguladas por el gobierno.
-* No tienen prestaciones en sus empleos (ej. Seguridad Social).
-* Salarios bajos
-* Poca estabilidad laboral
-* Incumplimiento de Derechos Laborales
+- Se encuentran realizando actividades no reguladas por el gobierno.
+- No tienen prestaciones en sus empleos (ej. Seguridad Social).
+- Salarios bajos
+- Poca estabilidad laboral
+- Incumplimiento de Derechos Laborales
 
 Dentro del sector informal, las actividades que contribuyen mayormente a la economía son: el comercio con el 38.3%; seguido por la construcción (27.8%) y la industria manufacturera (13.2%;  La Jornada, 2018).
 
-El hecho de que exista un alto porcentaje de personas dedicadas al sector informal tiene consecuencias negativas para la economía del país porque significan impuestos que no recauda el sistema de Hacienda, aunado a los impuestos que evaden personas y empresas ubicadas en la economía formal (Dinero en Imagen, 2018). Esto se refleja en la baja tasa de recaudación de impuestos que tiene nuestro país (30%) según la Organización para la Cooperación y el Desarrollo Económico (OCDE), lo que ocasiona una baja competitividad para nuestro país en una escala global (Orozco Valdez, 2017).
+El hecho de que exista un alto porcentaje de personas dedicadas al sector informal tiene consecuencias negativas para la economía del país porque se traducen en impuestos que no recauda el sistema de Hacienda, aunado a los impuestos que evaden personas y empresas ubicadas en la economía formal (Dinero en Imagen, 2018).  Esto se refleja en una baja competitividad para nuestro país en una escala global (Orozco Valdez, 2017).
 
 Es necesario que los negocios que se encuentran en la informalidad se cambien a la formalidad, ya que esto aseguraría un mejor futuro para los dueños de dichos negocios al acceder a empleos con:
 
 - prestaciones de Ley, 
 - acceso a Seguridad Social, 
 - mejor calidad de vida, 
+- aumento en las ventas de un 30% al aceptar pagos con tarjeta de crédito o débito (elempresario.mx, 2018),
 - ser sujeto de crédito, entre otros. 
 
-Pero también significaría un mejor futuro para México, ya que fortalecería la producción interna y esto nos convertiría en un país más competitivo.
-
+También significaría un mejor futuro para México, ya que fortalecería la producción interna y esto nos convertiría en un país más competitivo.
 
 ## Objetivo
 
-Fomentar que dueños de pequeños negocios decidan pasarse a la formalidad a través de conocer las ventajas que esto les trae.
-
+Fomentar e incentivar que dueños de pequeños negocios que se encuentran en la informalidad tengan acceso a información detallada y clara sobre los beneficios que proporciona el tener un negocio constituido formalmente, para que decidan llevar a cabo el trámite ante la Secretaría de Hacienda. Facilitando lo anterior a través de una app educativa.
 
 ## Planteamiento del Problema
 
-Realizamos un cuestionario a dueños de pequeños negocios que se encuentran en el sector informal, mediante el cual pudimos obtener la descripción de nuestra proto-persona (Fig. 1). Con base en ello hemos podido establecer las características del problema que vamos a resolver, las cuales se presentan a continuación:
+Para desarrollar este proyecto platicamos con dueños de pequeños negocios que se encuentran en la informalidad. Pudimos conocer la situación a la que se enfrentan diariamente, sus miedos y las razones por las que no han decidido a formalizar su negocio. Con base en dicha información, pudimos realizar la descripción de nuestra proto-persona (fig. 1) y basándonos en el mapa de empatía (fig. 2). 
 
-* Eliminar los mitos, y aclarar las realidades acerca de convertirse en una empresa formal.
-* Informar sobre los beneficios y las obligaciones que se generan al pasarse a la formalidad.
-* Guiar y acompañar en el proceso de formalización de la empresa ante la Secretaría de Hacienda.
+Las características del problema a resolver son: 
+
+- Miedo perder una gran parte del ingreso que tienen por pagar impuestos, 
+- Miedo a tener problemas legales por no conocer la información a detalle acerca de cómo realizar sus declaraciones.
+- Poca información sobre los beneficios y las obligaciones que se generan al pasarse a la formalidad.
+
+### ¿Cómo vamos a incentivar a los dueños de pequeños negocios para que decidan pasarse a la formalidad?
+
+Informar sobre los beneficios que obtienen siendo una empresa constituida formalmente:
+
+- Acceso a Seguridad Social para ellos y su familia.
+- Acceso a préstamos de INFONAVIT para adquirir una vivienda propia.
+- Oportunidades de adquirir beneficios financieros: como préstamos para agrandar su negocio, así como obtener una terminal bancaria para aceptar pagos con tarjeta de crédito y/o débito y aumentar sus ventas a corto plazo.
+- Ampliar el alcance de ventas al dar confianza a los clientes, por medio de facturar sus compras.
+
+### Solución
+
+Una app educativa que guíe a nuestro usuario a través del proceso de formalización de su negocio proporcionando la información que necesita saber para concluirlo, y así obtener los beneficios que le ayudarán a tener una mejor calidad de vida. 
+
+Una vez que el usuario esté constituído como una persona física con actividad empresarial, podrá elegir si desea que una institución bancaria se ponga en contacto con él para conocer los beneficios que le pueden ofrecer. Para ello deberá llenar un formulario donde ingrese algunos datos, incluyendo su RFC.
+
+![DiagramaSolucion](https://github.com/DianaG-M/adamantium/blob/master/imagenes/Diagrama_PersFisica.jpg)
 
 ## Hipótesis
 
-Se ha planteado la siguiente hipótesis para generar una solución práctica a la problemática mencionada.
-Como caso particular, hemos tomado los dolores que tienen los dueños de pequeños negocios que se encuentran en la informalidad, como lo es Ana Fernández (fig. 1), y las razones por las que estos se rehúsan a estar dentro del ámbito formal, basándonos en un Mapa de Empatía (fig. 2). Esto nos arroja los siguientes dolores:
+Si logramos, por medio de la información y el acompañamiento en el trámite que proporcionaremos, reducir los miedos que tienen los dueños de pequeños negocios a formalizarse, podremos motivar a que cada vez sean más los mexicanos que tengan acceso a oportunidades financieras y de crecimiento, disminuyendo la desigualdad. Así mejorarán su calidad de vida, e incrementarán sus ganancias a corto plazo. Como consecuencia a largo plazo, lograremos impactar la economía mexicana de manera positiva.
 
-1.- Desinformación referente a no tener ingresos para cubrir los pagos que generan los trámites.
-2.- Desinformación respecto al pago de Impuestos ante el SAT.
+## Protopersona
 
-Si somos capaces de combatir dichos dolores, podremos asegurar que los dueños de pequeños negocios que se encuentran en la informalidad, se pasen al sector formal, mejorando su calidad de vida, incrementando sus ganancias a largo plazo; y a mediano plazo, mejorará la economía mexicana.
-
-## Solución
-
-![DiagramaSolucion](URL
-
-## User Persona
-
-![User](URL
+![User](https://github.com/DianaG-M/adamantium/blob/master/imagenes/userpersona.jpg)
 
 HISTORIAS DE USUARIO PARA UN PERSONA FÍSICA CON ACTIVIDAD EMPRESARIAL
 
@@ -97,7 +105,7 @@ Yo como Usuario requiero saber si me conviene definirme como persona física con
 
 ## Mapa de Empatía
 
-![Empatia](URL
+![Empatia](https://github.com/DianaG-M/adamantium/blob/master/imagenes/empatia.jpg)
 
 ## Prototipo
 
