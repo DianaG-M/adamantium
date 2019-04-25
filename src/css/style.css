@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -7,8 +7,316 @@ body {
     font-size: 30px;
 }
 
-.section-app{
+.section-app {
     margin-top: 15vh;
     margin-bottom: 10vh;
 }
 
+#diamond {
+    position: absolute;
+    width: 42px;
+    height: 43px;
+    left: 188px;
+    top: 10px;
+    margin-top: 2%;
+}
+
+#diamond-number {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 211px;
+    top: 32px;
+    background: #97E4E8;
+    color: black;
+    border-radius: 50%;
+}
+
+/* N */
+#level-tag {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 297px;
+    top: 7px;
+}
+
+
+/* N */
+#current-level {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 324px;
+    top: 32px;
+    background: #97E4E8;
+    color: black;
+    border-radius: 50%;
+}
+
+
+
+/* nivel */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 330px;
+top: 34px;
+
+background: #97E4E8;
+
+
+/* 1 */
+
+position: absolute;
+width: 37px;
+height: 32px;
+left: 336px;
+top: 34px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+
+
+
+/* separador1 */
+
+position: absolute;
+width: 378px;
+height: 14px;
+left: -3px;
+top: 64px;
+
+background: #41344A;
+
+
+/* footer */
+
+position: absolute;
+width: 375px;
+height: 41px;
+left: 0px;
+top: 769px;
+
+background: #D9D2C5;
+
+
+/* Nivel 1 */
+
+position: absolute;
+width: 62px;
+height: 24px;
+left: 61px;
+top: 537px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Nivel 2 */
+
+position: absolute;
+width: 62px;
+height: 24px;
+left: 253px;
+top: 537px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Nivel 3 */
+
+position: absolute;
+width: 62px;
+height: 24px;
+left: 157px;
+top: 715px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Adamantium-2019 Todos los derechos reservados */
+
+position: absolute;
+width: 274px;
+height: 15px;
+left: 61px;
+top: 782px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* separador2 */
+
+position: absolute;
+width: 375px;
+height: 14px;
+left: 0px;
+top: 755px;
+
+background: #41344A;
+
+
+/* copy */
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: 37px;
+top: 780px;
+
+background: url(copy.png);
+
+
+/* Mision */
+
+position: absolute;
+width: 152px;
+height: 152px;
+left: 112px;
+top: 137px;
+
+background: #97E4E8;
+
+
+/* Mision */
+
+position: absolute;
+width: 87px;
+height: 110px;
+left: 146px;
+top: 158px;
+
+background: url(nivel_1.png);
+
+
+/* Misión */
+
+position: absolute;
+width: 90px;
+height: 36px;
+left: 146px;
+top: 306px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Mision_circulo */
+
+position: absolute;
+width: 185px;
+height: 185px;
+left: 95px;
+top: 121px;
+
+background: url(progress_100.png);
+
+
+/* nivel_1 */
+
+position: absolute;
+width: 123px;
+height: 123px;
+left: 30px;
+top: 382px;
+
+background: #568E8F;
+
+
+/* nivel_2 */
+
+position: absolute;
+width: 123px;
+height: 123px;
+left: 222px;
+top: 386px;
+
+background: #568E8F;
+
+
+/* nivel_3 */
+
+position: absolute;
+width: 123px;
+height: 123px;
+left: 129px;
+top: 569px;
+
+background: #568E8F;
+
+
+/* progress_0 */
+
+position: absolute;
+width: 186px;
+height: 193px;
+left: 191px;
+top: 351px;
+
+background: url(progress_0.png);
+
+
+/* progress_0 */
+
+position: absolute;
+width: 186px;
+height: 193px;
+left: 98px;
+top: 537px;
+
+background: url(progress_0.png);
+
+
+/* progress_5 */
+
+position: absolute;
+width: 199px;
+height: 198px;
+left: -11px;
+top: 351px;
+
+background: url(progress_5.png);
