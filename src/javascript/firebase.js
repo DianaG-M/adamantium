@@ -1,5 +1,3 @@
-// Initialize Firebase
-// TODO: Replace with your project's customized code snippet
 var app_fireBase = {};
 (function () {
   var config = {
@@ -16,36 +14,36 @@ var app_fireBase = {};
   console.log(firebase);
 })()
 
-precompiled = () => {
-  var ui = new firebaseui.auth.AuthUI(firebase.auth());
-  var uiConfig = {
-    callbacks: {
-      signInSuccessWithAuthResult: function (authResult, redirectUrl) {
-        return true;
-      },
-      uiShown: function () {
-        document.getElementById('loader').style.display = 'none';
-      }
-    },
-    signInFlow: 'popup',
-    signInSuccessUrl: '#level1',
-    signInOptions: [
-      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-   ],
-    callbacks: {
-      signInFailure: function (error) {
-        if (error.code != 'firebaseui/anonymous-upgrade-merge-conflict') {
-          return Promise.resolve();
-        }
-        var cred = error.credential;
-        return firebase.auth().signInWithCredential(cred);
-      }
-    }
+// precompiled = () => {
+//   var ui = new firebaseui.auth.AuthUI(firebase.auth());
+//   var uiConfig = {
+//     callbacks: {
+//       signInSuccessWithAuthResult: function (authResult, redirectUrl) {
+//         return true;
+//       },
+//       uiShown: function () {
+//         document.getElementById('loader').style.display = 'none';
+//       }
+//     },
+//     signInFlow: 'popup',
+//     signInSuccessUrl: '#level1',
+//     signInOptions: [
+//       firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+//    ],
+//     callbacks: {
+//       signInFailure: function (error) {
+//         if (error.code != 'firebaseui/anonymous-upgrade-merge-conflict') {
+//           return Promise.resolve();
+//         }
+//         var cred = error.credential;
+//         return firebase.auth().signInWithCredential(cred);
+//       }
+//     }
 
-  };
-  ui.start('#firebaseui-auth-container', uiConfig);
-}
-precompiled();
+//   };
+//   ui.start('#firebaseui-auth-container', uiConfig);
+// }
+// precompiled();
 
 const loginGoogle = document.getElementById('login');
 loginGoogle.addEventListener('click', () => {
@@ -66,19 +64,22 @@ authenticationGoogle = () => {
 
 }
 
-
-
+const firstSections = document.getElementById('first-sections');
+const level1 = document.getElementById('level-1');
 firebase.auth().onAuthStateChanged((user) => {
   if (user) {
     console.log('hay usuario activo')
+    console.log(user);
     location.replace('#level-1');
-    document.getElementsByClassName('section-app').style.display="none";
-  
+    firstSections.style.display = 'none';
   } else {
     console.log('no hay usuario activo')
     uid = null;
+    location.replace('#main-menu');
+    level1.style.display = 'none';
   }
 })
+
 
 
 // Cerrar sesión
